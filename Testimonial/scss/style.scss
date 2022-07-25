@@ -1,0 +1,106 @@
+@import 'config';
+
+body{
+    position: relative;
+
+    .Testimonial{
+        background-color: #fff;
+        position: relative;
+        display: flex;
+
+        .testimonial-card{
+            width: 100%;
+            background-color: inherit;
+            display: none;
+
+            .testimonial-wrapper{
+                background-image: url(../images/pattern-curve.svg);
+                background-repeat: no-repeat;
+                background-position: bottom left;
+                background-size: 17rem;
+                height: 100vh;
+                width: 100vw;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+    
+                .img-area{
+                    padding: 2rem;
+                    background-image: url(../images/pattern-bg.svg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    
+                    
+        
+                    .img-area-container{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        position: relative;
+                        padding: .1rem;
+        
+                        .testifier-img{
+                            height: 17rem;
+                            width: auto;
+                            border-radius: .3rem;
+                        }
+                        
+                        .directionals{
+                            position: absolute;
+                            bottom: -1.1rem;
+                            background-color: $white;
+                            padding: .7rem 0;
+                            border-radius: 7rem;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            box-shadow: 0 0 5rem $darkBlue;
+                            
+                            
+                            img{
+                                margin: 0 1rem 0 1rem;
+                                height: 1rem;
+                                width: auto;
+                                cursor: pointer;
+                            }
+            
+                        }
+                    }
+        
+                    
+                }
+        
+                .quote-area{
+                    background-image: url(../images/pattern-quotes.svg);
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                    background-size: 4rem;
+                    margin: 2rem 0;
+        
+                    .quote-area-wrapper{
+                        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                        text-align: center;
+        
+                        .txt{
+                            font-size: 1.3rem;
+                            color: $darkBlue;
+                            padding: 1.5rem 1.5rem;
+                        }
+                        .sub-txt{
+                            .sub-txt2{
+                                color: $grayishBlue;
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+
+
+@import 'desktop';

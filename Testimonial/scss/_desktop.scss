@@ -1,0 +1,56 @@
+@media (min-width: 800px) {
+
+   body{
+      .Testimonial{
+
+         .testimonial-card{
+            
+            .testimonial-wrapper{
+               flex-direction: row;
+               background-size: 25rem;
+      
+               .img-area{
+                  margin-left: 7rem;
+      
+                  .img-area-container{
+                     align-items: flex-start;
+      
+                     .testifier-img{
+                        height: 20rem;
+                     }
+                     .directionals{
+                        margin-left: 3rem;
+      
+                     }
+                  }
+               }
+      
+               .quote-area{
+                  background-size: 7rem;
+      
+                  .quote-area-wrapper{
+                     text-align: left;
+      
+                     .txt{
+                        font-size: 1.7rem;
+                        margin: 0 7rem;
+                     }
+                     .sub-txt{
+                        font-size: 1.5rem;
+                        margin: 2rem 8.5rem 0;
+                        display: inline-flex;
+                        .sub-txt2{
+                           margin: 0 .7rem 0;
+                        }
+                     }
+                  }
+               }
+            }
+
+         }
+       
+        
+      } 
+   }
+ 
+}
